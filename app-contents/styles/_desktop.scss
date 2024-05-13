@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Alegreya;
+    src: url(/app-contents/fonts/AlegreyaSans-Light.ttf) format("truetype");
+    
+}
 html {
     margin: 0;
     padding: 0;
@@ -15,12 +20,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
+    font-family: "Alegreya", sans-serif;
+    font-weight: 300;
     font-size: 18px;
     opacity: 0;
 
 }
+
 body.loaded{
     transition: opacity ease 1s;
     opacity: 1;
@@ -103,7 +109,7 @@ body.loaded{
 }
 
 .content {
-    width: 348px;
+    width: 360px;
     max-width: 100%;
     position: absolute;
     z-index: 8;
