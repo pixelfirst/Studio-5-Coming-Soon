@@ -22,8 +22,8 @@ window.addEventListener("mousemove", function (e) {
     cordinates = { x: cordinates.x - center_x, y: cordinates.y - center_y };
 
 
-    var move_x_to = cordinates.x / 50;
-    var move_y_to = cordinates.y / 50;
+    var move_x_to = cordinates.x / 30;
+    var move_y_to = cordinates.y / 30;
 
 
 
