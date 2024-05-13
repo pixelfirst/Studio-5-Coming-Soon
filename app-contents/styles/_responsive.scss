@@ -1,0 +1,96 @@
+@media screen and (max-width:620px) {
+    :root {
+        --scale: 1;
+    }
+    html{
+        scroll-snap-type: none;
+    }
+    body{
+        background-image: url(/app-contents/images/screens/screen-0.webp);
+        padding-top: 120px
+    }
+    .stage {
+        height: auto;
+    }
+
+    .screen {
+        width: 100vw;
+
+        img,
+        video {
+            width: 960px;
+            transform: translateX(-50%);
+            position: relative;
+            left: 50%;
+        }
+    }
+
+    .screen:first-child {
+        position: relative;
+    }
+
+    .content {
+
+
+        p {
+            font-size: 18px;
+            color: #000;
+            margin: 0;
+            text-align: center;
+            display: none;
+        }
+
+        img {
+            display: block;
+            margin: 70px auto 0 auto;
+            width: 200px;
+        }
+
+    }
+
+    .mobile-tagline {
+        font-size: 18px;
+        color: #fff;
+        position: absolute;
+        z-index: 8;
+        top: 0;
+        left: 0;
+        right: 0;
+        
+
+        display: block;
+        text-align: center;
+        padding: 40px 0;
+
+        p {
+            width: 270px;
+            margin: 0 auto;
+        }
+    }
+
+    .content-coming-soon {
+        min-height: 100vh;
+        height: auto;
+
+
+
+        .inner-content {
+            width: 826px;
+            margin: 0 auto;
+            max-width: 100%;
+
+            p {
+
+                font-size: 16px;
+            }
+
+
+
+            img {
+
+                width: 115px;
+
+            }
+        }
+    }
+}
